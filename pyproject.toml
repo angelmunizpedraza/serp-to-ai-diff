@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "serp-to-ai-diff"
+version = "0.1.0"
+description = "Quantify how much Google's top-10 overlaps with the sources Perplexity and ChatGPT cite for the same keywords, and find where you rank but are never cited."
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Ángel Muñiz Pedraza"}]
+requires-python = ">=3.10"
+dependencies = ["requests>=2.31"]
+keywords = ["seo", "geo", "ai-search", "perplexity", "chatgpt", "serp", "citations", "generative-engine-optimization"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+serp-ai-diff = "serp_ai_diff.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["serp_ai_diff*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
