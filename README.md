@@ -88,7 +88,14 @@ tests/         # 9 tests, no network
 examples/      # sample keyword list
 ```
 
-## Related tools by the same author
+## Related tools
+
+Part of a set of nine open-source tools I use on client work — all Python, MIT, deterministic, no API keys:
+
+[geo-check](https://github.com/angelmunizpedraza/geo-check) · [render-gap](https://github.com/angelmunizpedraza/render-gap) · [llms-txt-generator](https://github.com/angelmunizpedraza/llms-txt-generator) · [citeable](https://github.com/angelmunizpedraza/citeable) · [ai-visibility-tracker](https://github.com/angelmunizpedraza/ai-visibility-tracker) · [linkjuice](https://github.com/angelmunizpedraza/linkjuice) · [seo-audit](https://github.com/angelmunizpedraza/seo-audit) · [ga4-report](https://github.com/angelmunizpedraza/ga4-report)
+
+`geo-check` asks whether the AI crawlers are allowed in. `render-gap` asks whether anything was there when they arrived. `citeable` asks whether it was worth quoting.
+
 
 * [ai-visibility-tracker](https://github.com/angelmunizpedraza/ai-visibility-tracker) — are you mentioned/cited by ChatGPT, Perplexity and Claude for a prompt set? Share of voice over time + AI-crawler log analysis.
 * [geo-check](https://github.com/angelmunizpedraza/geo-check) — is your site technically ready for AI search?
